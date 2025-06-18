@@ -7,8 +7,7 @@ import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Repository;
 
 
-@Repository
-@Primary
+//@Repository
 public class AcervoRepoJpaImpl implements IAcervoRepository {
     private IAcervoJpaItfRep repository;
 

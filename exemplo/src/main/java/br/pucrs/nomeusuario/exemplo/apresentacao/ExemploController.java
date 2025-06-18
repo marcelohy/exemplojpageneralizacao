@@ -26,7 +26,7 @@ public class ExemploController {
     }
 
     @GetMapping("/livroid/{id}")
-    public Livro getLivroTitulo(@PathVariable("id") long id) {
+    public Livro getLivroId(@PathVariable("id") long id) {
         return acervo.getLivroId(id);
     }
 
